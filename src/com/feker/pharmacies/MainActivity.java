@@ -8,8 +8,6 @@ import java.util.concurrent.ExecutionException;
 import com.feker.pharmacies.Utilities.FillListGovCacheTask;
 import com.feker.pharmacies.Utilities.FillSinglelocaliteCacheTask;
 import com.feker.pharmacies.Utilities.StaticInformationGatway;
-import com.google.android.gms.maps.SupportMapFragment;
-
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
