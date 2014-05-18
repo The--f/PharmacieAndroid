@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pharmacies</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">La Plus Proche</string>
+    <string name="title_section2">Gouvernorat</string>
+    <string name="title_section3">Localites</string>
+    <string name="title_section4">Pharmacies</string>
+   	<string name="title_section5">Details</string>	    
+</resources>
