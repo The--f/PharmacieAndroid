@@ -53,6 +53,7 @@ public class MapFragment extends SupportMapFragment  {
 	}
 	@Override
 	public void onResume() {
+
 		super.onResume();
 		setUpMapIfNeeded(this.getView());
 	}
@@ -91,7 +92,7 @@ public class MapFragment extends SupportMapFragment  {
 				} 
 			mMap.clear();
 			String result = RC.response;
-			result ="[{\"NomPharmacien\":\"Bounsnina Salah\",\"longitute\":\"10.1689624786377\",\"lattitude\":\"36.8901928679271\"},{\"NomPharmacien\":\"Hela Chahed\",\"longitute\":\"10.5914640426636\",\"lattitude\":\"36.6494411163734\"},{\"NomPharmacien\":\"Boubaya Ali \",\"longitute\":\"10.1795196533203\",\"lattitude\":\"36.7900925187546\"},{\"NomPharmacien\":\"Ghileb Semi\",\"longitute\":\"10.1858711242676\",\"lattitude\":\"36.9000687161051\"},{\"NomPharmacien\":\"Ayari Nejib \",\"longitute\":\"10.5921936035156\",\"lattitude\":\"36.6447325200542\"},{\"NomPharmacien\":\"mohamed ali jemaa\",\"longitute\":\"10.1227426528931\",\"lattitude\":\"36.8271066158298\"}]";
+			//result ="[{\"NomPharmacien\":\"Bounsnina Salah\",\"longitute\":\"10.1689624786377\",\"lattitude\":\"36.8901928679271\"},{\"NomPharmacien\":\"Hela Chahed\",\"longitute\":\"10.5914640426636\",\"lattitude\":\"36.6494411163734\"},{\"NomPharmacien\":\"Boubaya Ali \",\"longitute\":\"10.1795196533203\",\"lattitude\":\"36.7900925187546\"},{\"NomPharmacien\":\"Ghileb Semi\",\"longitute\":\"10.1858711242676\",\"lattitude\":\"36.9000687161051\"},{\"NomPharmacien\":\"Ayari Nejib \",\"longitute\":\"10.5921936035156\",\"lattitude\":\"36.6447325200542\"},{\"NomPharmacien\":\"mohamed ali jemaa\",\"longitute\":\"10.1227426528931\",\"lattitude\":\"36.8271066158298\"}]";
 			if (result.length()!= 0 ) {
 					try {					
 						JSONArray jObject = new JSONArray(result);
