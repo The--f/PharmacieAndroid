@@ -152,9 +152,9 @@ public class MainActivity extends FragmentActivity implements
 				PharmacielistFragment pharmalist = new PharmacielistFragment();							
 				return pharmalist ;
 			case 4:				
-				return new MainFragment();
+				return new DetailFragment();
 			}
-			return new MainFragment();		
+			return new DetailFragment();		
 		}
 
 		@Override

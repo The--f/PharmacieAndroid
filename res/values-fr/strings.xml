@@ -6,5 +6,6 @@
     <string name="title_section2">Gouvernorat</string>
     <string name="title_section3">Localites</string>
     <string name="title_section4">Pharmacies</string>
-   	<string name="title_section5">Details</string>	    
+   	<string name="title_section5">Details</string>
+   	<string name="pharmacieLabel">Pharmacie</string>	    
 </resources>
