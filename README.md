@@ -7,8 +7,9 @@ This is an Android application made as a copy of a famous app made by Pixel Trad
 mainly during holidays and weekends when there is only one open in each city.
 
  This app is made to supplement the lack of such updates in the PixelTrade's app 
-The Updates are gathered from another PHP application : 
+ 
+ The Updates are gathered from another PHP application : 
   (https://github.com/GharbiMA/PharamciePPE) 
   made by my great colleague Gharbi 
   
-  This app is neither complete nor bugproof 
+  * This app is neither complete nor bugproof  
